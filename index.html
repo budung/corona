@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>라이브코로나19 -livecorona19</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Stylesheet" href="css/bootstrap.min.css" />
+    <style>
+        body {
+            padding-top : 50px;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<link rel='shortcut icon' type='image/x-icon' href='ico.png'/>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">라이브코로나19</a>
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#target">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="target">
+                <ul class="nav navbar-nav">
+										<li><a href="what.html">코로나19란?</a></li>
+						<li><a href="protect.html">예방수칙</a></li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+                            <span>관련 사이트</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.cdc.go.kr/index.es?sid=a2">질병관리본부 사이트</a></li>
+                            <li><a href="http://ncov.mohw.go.kr/index_main.jsp#link">코로나19 관련 질병관리본부 사이트</a></li>
+                            <li><a href="http://www.mohw.go.kr/react/popup_200128.html">선별진료소 현황</a></li>
+                            <li class="divider"></li>
+                            <li><a href="https://www.who.int/">세계보건기구 (WHO)</a></li>
+                        </ul>
+                    </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span>코로나19 관련 분포도</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+							
+							<li><a href="https://terms.naver.com/imageDetail.nhn?docId=5912275&imageUrl=https%3A%2F%2Fpost-phinf.pstatic.net%2FMjAyMDAyMjVfMzYg%2FMDAxNTgyNjIwMTIyNjQ0.b7FT75D3Obwrc8fo-Sy7F0gW1n0QMYg2DwFp3n6g5ykg.RScM2VGVhmBiIguiYjbRP06OoymTqEcNzNUQiETwa3Ug.PNG%2F%25EA%25B5%25AD%25EB%2582%25B4%25EC%25A7%2580%25EB%258F%2584_%25ED%2598%2584%25ED%2599%25A9.png&categoryId=43667&mode=simple|&query=&authorId=">코로나19 국내분포도</a></li>
+							<li><a href="https://terms.naver.com/imageDetail.nhn?docId=5912275&imageUrl=https%3A%2F%2Fpost-phinf.pstatic.net%2FMjAyMDAyMjVfMjEg%2FMDAxNTgyNjE4NTg2MDQw.KMadeMrKZ9pmZzt34P4Jvuq0aB4dI942E_C75rchrPcg.O_4GPixRzxh0lrdHqapoctq0mf7iAHmzZZF0Tv5fKVog.JPEG%2F_upload_mwEditor_202002_1582617823229_20200225170343.jpg&categoryId=43667&mode=simple|&query=&authorId=">코로나19 세계분포도</a></li>
+							<li><a href="https://terms.naver.com/imageDetail.nhn?docId=5912275&imageUrl=https%3A%2F%2Fpost-phinf.pstatic.net%2FMjAyMDAyMjVfMTE1%2FMDAxNTgyNjA5MzA4MzA3.GvMk3RolVWR1IsWwCoGqQ4lNuKZ62jttQKQ3WrnR6Kwg.nMNzTHKmij_0KxvoOOJI07Zk8U1lrpwgjfp1doVwcQAg.PNG%2F%25ED%2586%25B5%25EA%25B3%25841-%25EA%25B5%25AD%25EB%2582%25B4%25ED%2599%2595%25EC%25A7%2584%25EC%259E%2590%25EC%2584%25B1%25EB%25B3%2584.png&categoryId=43667&mode=simple|&query=&authorId=">코로나19 성별분포도</a></li>
+							
+
+                        </ul>
+                    </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span>뉴스</span>
+                            <span class="caret"></span>
+                        </a>
+						<ul class="dropdown-menu">
+							<li><a href="https://news.naver.com/">네이버 뉴스</a></li>
+							<li class="divider"></li>
+							<li><a href="https://media.daum.net/">다음 뉴스</a></li>
+						</ul>
+                    </li>
+
+
+					
+					
+					
+					
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>코로나19(COVID-19) 실시간 현황</h1>
+		<p>코로나19(COVID-19) 실시간 현황입니다.</p>
+		<hr>
+		<h1>{{ hw }}</h1>
+		<h1>{{ wa }}</h1>
+		<h1>{{ gu }}</h1>
+		<h1>{{ sa }}</h1>
+		<hr>
+		<p>이메일: BudungSoft@gmail.com<br>전화번호: 비공개<br>(C) 2020 BudungSoft. All rights reserved.</p>
+
+    </div>
+</body>
+</html>
